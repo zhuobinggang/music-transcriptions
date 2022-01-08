@@ -1,0 +1,25 @@
+(tempo! 66)
+
+prelude = [{o4 a b >c g e c <b >c <a b >c g e c <b r}1]
+
+# piano:
+#     V1:
+#     (f)    
+#     prelude*2
+# 
+# piano:
+#     V1: 
+#     prelude*4
+# 
+#     V2:
+#     o4 e4 c4 {<a4 g8 a4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <g4 r4 | o4 e4 {c2 <g4}4 {a4 g8 a4 >c4.}2 | <b2 r2
+
+piano:
+    V1: 
+    # 建议是你别再 玩弄那些小把戏
+    o4 e4 c4 {<a4 g8 a4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <g4. o3 d16 e16 | 
+    # 我的领地 需要你
+    o3 f8~16 >c16~4 r4 d8~16 c16~|8 <b4~8 r2
+
+
+
