@@ -7,19 +7,41 @@ prelude = [{o4 a b >c g e c <b >c <a b >c g e c <b r}1]
 #     (f)    
 #     prelude*2
 # 
-# piano:
-#     V1: 
-#     prelude*4
-# 
-#     V2:
-#     o4 e4 c4 {<a4 g8 a4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <g4 r4 | o4 e4 {c2 <g4}4 {a4 g8 a4 >c4.}2 | <b2 r2
+piano:
+    V1:
+    # 前提 是你要先感受到一絲惡意
+    o4 e4 c4 {<e4 d8 e4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <e4 r4
+    # 具體 請闖入我森林
+    o4 e4 {c2 <d4}4 {e4 d8 e4 >c4.}2 | <b2 r2
+    # V2: 
+    # prelude*4
 
 piano:
-    V1: 
     # 建议是你别再 玩弄那些小把戏
-    o4 e4 c4 {<a4 g8 a4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <g4. o3 d16 e16 | 
+    o4 e4 c4 {<e4 d8 e4 >c4.}2 | o4 {c <b >c <b}4 {>c d}4 <e4 r8
     # 我的领地 需要你
-    o3 f8~16 >c16~4 r4 d8~16 c16~|8 <b4~8 r2
+    o3 o3 d16 e16 | f8~16 >c16~4 r4 d8~16 c16~|8 o3 b4~8 r8~8~8 
+
+piano:
+    # 都銅墻鐵壁
+    o3 g8 | {a16 g a >f}4  
+    # 那誰來負責表心意
+    o4 {r4~8 f8}2 {f16 g f e}4 | e8 <a16 >c r4~4~8 
+    # 當獵槍響起 
+    o3 b8 | b8 >d16 <b16~8 g8 r8~8~8  
+    # 看看誰在迴避
+    o3 g8 | g16 a b >c <b8~16 a8~16 r8
+
+piano:
+    # 我內心表現很積極
+    o4 e8 | a8 b g a e16 f16~16 d16~8 
+    # {?}一路都能尾隨你
+    o3 b8 | {>c16 <b >c <b}4 >c8 f e r r
+    # 我盡量保持好距離
+    o4 e8 | a8 b g a e16 f16~16 d16~8 
+    # 衷心讓人看不起
+    o3 b8 | {>c16 <b >c <b}4 >c8 e <b r r
+    # 
 
 
 
